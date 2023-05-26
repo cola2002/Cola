@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding: 0;
+    margin: 0;
+	background-color: #5B8FB9;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+
+#container {
+	width: 1000px;
+	background-color: #6097C2;
+	margin: 0 auto;
+	border: solid 1px #6097C2;
+	padding: 20px;
+}
+
+#header {
+	height: 50px;
+	width: 1000px;
+	background-color: #B6EADA;
+	border: solid 1px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#main {
+	height: 500px;
+	width: 1000px;
+	border: solid 2px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	background-color: #B6EADA;
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+#section-1 {
+	height: 400px;
+	width: 1000px;
+	background-color: #B6EADA;
+	border: solid 2px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-align-last: left;
+}
+
+/* Style buttons */
+.btn {
+  background-color: #668EC0;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #435E7F;
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+}
+#section-2 {
+	height: 450px;
+	width: 1000px;
+	background-color: transparent;
+	border: solid 2px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	display: flex;
+	padding: 1px;
+	justify-content: space-between;
+}
+
+.box {
+	width: 480px;
+	height: 450px;
+	background-color: #C8DBE4;
+	text-align: center;
+}
+
+img {
+	float: left;
+	margin-bottom: 20px;
+}
+.blue {
+	background-color: #C9CCE2;
+}
+
+.red {
+	background-color: #C9CCE2;
+}
+
+#section-3 {
+	height: 200px;
+	width: 1000px;
+	background-color: #B6EADA;
+	border: solid 2px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 1px;
+}
+
+img {
+	margin-right: 30px;
+}
+
+#footer {
+	height: 40px;
+	width: 1000px;
+	background-color: #B6EADA;
+	border: solid 2px transparent;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;	
+}
+
+#foot {
+	list-style: none;
+	text-align: center;
+}
+
+#foot li {
+	display:  inline;
+	padding: 40px;
+}
+
+#navi {
+	list-style: none;
+	text-align: center;
+}
+
+#navi li {
+	display:  inline;
+	padding: 30px;
+}
